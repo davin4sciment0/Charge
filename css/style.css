@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(61, 61, 61); 
+    text-align: center;
+}
+
+/*--------------------MENU--------------------*/
+
+/*Tag container para o menu*/
+#container_menu{     
+    position: fixed;
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0), rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0));
+}
+
+#btn_tabela_menu{
+    background-color: #5697D1;
+    width: 2.8vw;
+    height: 2.5vw;
+    margin: 3vw 0 0 93vw;
+    position: fixed;
+    border: none;
+    border-radius: 1vw;
+    display: none;
+}
+
+#fechar_menu{
+    margin: 10vw 0 0 8.8vw;
+    display: block;
+    width: 20vw;
+    height: 5vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: #b84f4f;
+    display: none;
+}
+
+#logo2{
+    padding: 2.5vw 0 0 4vw;
+    width: 16vw;
+    text-align: left;
+    display: block;
+}
+
+/*section para a seáração e controle do menu*/
+#controle_menu{
+    margin: 1.5vw 0 0 8vw;
+    padding: 1vw 2vw;
+    text-align: right;
+    display: block;
+    width: 70vw;
+}
+
+/*Estilização das tags do menu*/
+.topico{
+    font: normal 15px Arial;
+    padding: 10px;
+    display: inline-flex;
+    user-select:none;
+    transition: 0.4s;
+    color: aliceblue;
+    text-decoration: none;
+}
+.topico:hover{
+    transition: 0.4s;
+    color: #5697D1;
+    font: bold 17px Arial;
+}
+
+/*Fundo*/
+#menu{
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    user-select: none;
+}
+
+#logo_vertical{
+    width: 35vw;
+    margin: 13vw 0 8vw 0;
+    
+}
+
+/*------------------APRESENTAÇÃO--------------------*/
+
+#container_Apresentacao_Mobile{
+    display: none;
+}
+
+#mobile1{
+    display: flex;
+    width: 80vw;
+    height: 50vw;
+    border-radius:  0 3vw 3vw 0;
+    margin: 0 0 7vw 0;
+}
+
+#mobile2{
+    display: flex;
+    width: 80vw;
+    height: 50vw;
+    border-radius:  3vw 0 0 3vw;
+    margin: 7vw 0vw 7vw 20vw;
+}
+
+#mobile3{
+    display: flex;
+    width: 80vw;
+    height: 50vw;
+    border-radius:  0 3vw 3vw 0;
+    margin: 7vw 0 7vw 0;
+}
+
+.divmob{
+    margin: auto;
+    width: 70vw;
+}
+
+.textmob{
+    font: normal 3.5vw Arial;
+    color:#cccccc;
+}
+
+/*------------------------------------------------------------------------*/
+
+.Separacao{
+    display: flex;
+    height: 30vw;
+}
+#Espacamento_menu{
+    padding-top: 1vw;
+}
+.word{
+    font: normal 1.3vw Verdana;
+    color:#cccccc
+}
+
+
+#img1{
+    margin: 0 0 0 58%;
+}
+
+#img-1{
+    width: 18vw;
+    height: 28vw;
+    border-radius: 1vw;
+}
+
+#text1{
+    position: absolute;
+    margin: 8% 0 0 23%;
+    width: 22vw;
+}
+
+#img2{
+    margin: 1vw 0 0 24%;
+}
+
+#img-2{
+    width: 20vw;
+    height: 30vw;
+    border-radius: 1vw;
+}
+
+#text2{
+    position: absolute;
+    width: 15%;
+    margin: 7% 0 0 55%;
+    width: 18%;
+}
+
+#img3{
+    margin: 0 0 0 50%;
+}
+
+#img-3{
+    border-radius: 1vw;
+    width: 26vw;
+}
+
+#text3{
+    position: absolute;
+    width: 15%;
+    margin: 10% 0 0 26%;
+    width: 15%;
+}
+
+#Footer{
+    margin-top: 10vw;
+    width: 100%;
+    background-color: rgb(66, 82, 97);
+}
+
+/*Barra de nagação*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.849);
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #5697D1;
+    border-radius: 10px;
+}
+
+/*Botão de "VEja nossas Ofertas"*/
+
+#btn_ofertas{
+    border-radius: 0.8vw;
+    height: 4vw;
+    width: 30vw;
+    border: none;
+    background: #5697D1;
+    color:#333;
+    font: bold 1.3vw Arial;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    margin: 10vw auto;
+    justify-content: center;
+    text-decoration: none;
+}
+  
+  #btn_ofertas:hover{
+    padding: 1.4vw;
+    background: #82c5ff;
+    transition: 0.5s;
+  }
+  
+#btn_ofertas:active {
+    scale: 0.95;
+    background: #333;
+   /* Changed background color to dark gray */
+    color:#5697D1;
+   /* Changed text color to yellow */
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 0.637473px 1.14745px -1.125px,
+      rgba(0, 0, 0, 0.24) 0px 1.93094px 3.4757px -2.25px,
+      rgba(0, 0, 0, 0.192) 0px 5.10423px 9.18761px -3.375px,
+      rgba(0, 0, 0, 0.03) 0px 16px 28.8px -4.5px;
+  }
+
+  /*--------------------DESTAQUES--------------------*/
+
+#Destaque{
+    width: 100%;
+    height: 40vw;
+    background-color: rgb(61, 61, 61); 
+    text-align: center;
+}
+
+#container_destaque{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+#fundo_destaque{
+    position: absolute; 
+    font: bold 10vw Arial;
+    color: white;
+}
+
+#Carro{
+    margin-top: 4.6%;
+    width: 38%;
+    position:absolute;
+    transition: 0.5s;
+}
+
+#Carro:hover{
+    width: 39%;
+    transition: 0.5s;
+}
+
+#nome_do_carro{
+    position: absolute;
+    font: normal 1.7vw Arial;
+    color: #E9E9E9;
+    margin-top: 24%;
+}
+
+#tabela{
+    display: flex;
+    margin-top: 30%;
+}
+
+.descrição{
+    margin: 20px;
+    background-color: #d6d6d6;
+    width: 16vw;
+    height:8vw;
+    border-radius: 12px;
+    font: normal 0.8vw Arial;
+    padding: 50px 20px 0 20px;
+    
+}
+
+td{
+    display:inline-flex;
+    justify-content: space-between;
+}
+
+ /*--------------------OFERTA--------------------*/
+
+#Ofertas{
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 8vw;
+}
+
+#container_car{
+    background-color: #2E2E2E;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: url('../img/Carrocel/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+#text{
+    margin: 15vw 0 0 60vw;
+    position: absolute;
+    width: 32vw;
+    justify-content: center;
+    display: flex;
+}
+
+#t1{
+    position: absolute;
+    font: bold 6vw Arial;
+    color:cornsilk;
+}
+
+#t2{
+    position: absolute;
+    font: normal 5.5vw Verdana;
+    color:cornsilk;
+    margin-top: 6vw;
+}
+
+#btn_slide{
+    position: absolute;
+    width: 28vw;
+    height: 3vw;
+    background-color: #5697D1;
+    margin: 15vw 0 0 0;
+    border-radius: 0.5vw;
+    padding-top: 1.4vw;
+    font: bold 1.5vw Arial;
+    color: #ececec;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#btn_slide:hover{
+    transition: 0.5s;
+    height: 3.4vw;
+    width: 28.5vw;
+    padding-top: 1.5vw;
+    background-color: #8cc9ff;
+    color:#2E2E2E
+}
+
+.troca{
+    width: 2.8vw;
+    height: 1vw;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 0.2vw;
+    margin: 0 0.5vw 0 0.5vw;
+    transition: 0.5s;
+}
+
+.troca:hover{
+    width: 3vw;
+    height: 1.2vw;
+    background-color: #5697D1;
+    transition: 0.5s;
+}
+
+#btn_trocar{
+    position: absolute;
+    margin-top: 45vw;
+    width: 20vw;
+    height: 4vw;
+}
+
+
+ /*--------------------CATALOGO--------------------*/
+
+#catalogo{
+    margin: 5% auto 2% auto;
+    font: bold 5vw Arial;
+    color:#dddddd;
+}
+
+#container_catalogo{
+    width: 100%;
+    height: 80vw;
+    justify-content: center;
+    transition: 0.5s;
+    margin-top: 5vw;
+}
+
+#tabela_de_carros{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.divioes_td{
+    margin: 4% 6% 4% 6%;
+    width: 20vw;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.nome_carro{
+    position: absolute;
+    font: bold 1.5vw Arial;
+    color: rgb(255, 255, 255);
+}
+
+.carro{
+    margin-top: 0.3%;
+    position: absolute;
+    width: 24vw;
+    transition: 0.5s;
+}
+
+.carro:hover{
+    width: 25vw;
+    transition: 0.5s;
+}
+
+.btn_catalogo{
+    margin-top: 13vw;
+    width: 100vw;
+    height: 2vw;
+    border-radius: 0.6vw;
+    background-color: #5697D1;
+    color:#ffffff;
+    font: bold 1vw Arial;
+    border:none;
+    transition: 0.5s;
+}
+
+.btn_catalogo:hover{
+    transition: 0.5s;
+    width: 92%;
+    height: 2.8vw;
+    background-color: #5ab1fd;
+}
+
+.btn_catalogo:active{
+    transition: 0.1s;
+    background-color: #202020;
+    color:#5ab1fd;
+    width: 93%;
+    height: 3vw;
+}
+
+/*-------------FOOTER--------------*/
+
+#Footer-container{
+    width: 100%;
+    height: 16vw;
+    background-color: rgb(61, 61, 61); 
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#redes{
+    padding: 2vw;
+    position: absolute;
+    margin-top: 3vw;
+}
+
+#descr_footer{
+    position: absolute;
+    margin-top: 3vw;
+    font: normal 1.3vw Arial;
+    color: rgb(235, 235, 235);
+}
+
+.tamanho{
+    transition: 0.5s;
+    width: 3vw;
+    margin: 10px;
+}
+.tamanho:hover{
+    transition: 0.5s;
+    width: 3.5vw;
+    margin: 10px;
+}
+
+ /*--------------------CATALOGO--------------------*/
+
+#btn_fechar{
+    width: 15vw;
+    height: 2.5vw;
+    position: absolute;
+    background-color: #5697D1;
+    border: none;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+    justify-content: center;
+    font: bold 1vw Arial;
+    color: #e0e0e0;
+    margin: 46vw 0 0 0;
+
+}
+
+#btn_fechar:hover{
+    background-color: #a73e3e;
+    transition: 0.5s;
+}
+
+#catalogo{
+    color: white;
+}
+
+.esconder{
+    display: none;
+    transition: 0.5s;
+}
+
+#carro_escolhido{
+    width: 100%;
+    height: 17%;
+    transition: 0.5s;
+}
+
+
+#container_escolhido{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#fundo_escolhido{
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    height: 15vw;
+    background-color: #5697D1;
+}
+
+.carro_a_ser_escolhido{
+    position: absolute;
+    width: 45%;
+    margin-top: 8%;
+    transition: 0.5s;
+}
+
+.carro_a_ser_escolhido:hover{
+    width: 46%;
+    transition: 0.5s;
+}
+
+.nome_escolhido{
+    position: absolute;
+    font: bold 5vw Arial;
+    color: #f7f7f7;
+    margin-top: 6%;
+}
+
+#tbl_esp{
+    position: relative;
+    margin-top: 31vw;
+    width: 100%;
+    height: 20vw;
+}
+
+#td_esp{
+    margin: 2%;
+    width: 20vw;
+    height: 10vw;
+    background-color: #333;
+    border-radius: 0.9vw;
+    justify-content: center;
+}
+
+.especificacao{
+    padding: 2vw;
+    font: normal 1.2vw Arial;
+}
+
+
+/*---------------BTN para voltar-----------------*/
+
+#container-catalogos{
+    width: 100%;
+    text-align: right;
+    display: flex;
+}
+
+#voltar{
+    font: bold 1.2vw Arial;
+    text-decoration: none;
+    color:#ffffff;
+    position: fixed;
+    padding: 2.5vw 0 0 90vw;
+}

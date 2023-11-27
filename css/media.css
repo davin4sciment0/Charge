@@ -1,0 +1,206 @@
+/*Celulares*/
+@media (max-width: 760px) {
+
+    /*MENU*/
+    
+    #Ofertas{
+        display: none;
+    }
+
+    #logo2{
+        display: none;
+    }
+
+    #controle_menu{
+        display: none;
+    }
+
+    #btn_tabela_menu{
+        display: flex;
+        margin: 6vw 0 0 86vw;
+        width: 6vw;
+        height: 6vw;
+    }
+
+    #container_menu{     
+        background-image: none;
+    }
+
+    #fechar_menu{
+        display: block;
+    }
+
+    /*CARRO EM DESTAQUE*/
+    #fundo_destaque{
+        font: bold 16vw Arial;
+    }
+
+    #Carro{
+        margin-top: 8%;
+        width: 55%;
+    }
+
+    #Carro:hover{
+        width: 56%;
+    }
+    
+
+    #nome_do_carro{
+        margin-top: 37%;
+        font: normal 5vw Arial;
+    }
+
+    #tabela{
+        display: flex;
+        margin-top: 45%;
+    }
+
+    .descrição{
+        margin: 10px;
+        background-color: #d6d6d6;
+        width: 60vw;
+        height:8vw;
+        border-radius: 12px;
+        font: normal 2vw Arial;
+        padding: 25px 30px 20px 30px;
+    }
+
+    /*FOOTER*/
+    #Footer{
+        margin-top: 85vw;
+    }
+
+    #descr_footer{
+        font: normal 3vw Arial;
+    }
+
+    .tamanho{
+        width: 6vw;
+        margin: 5vw 2vw 5vw 2vw;
+    }
+
+    .tamanho:hover{
+        width: 6.5vw;
+        margin: 4vw 2vw 5vw 2vw;
+    }
+
+    /*APRESENTAÇÃO*/
+
+    #btn_ofertas{
+        border-radius: 2vw;
+        height: 9vw;
+        width: 60vw;
+        font: bold 3vw Arial;
+    }
+
+    #container_Apresentacao_Mobile{
+        display: block;
+    }
+
+    #container_Apresentacao{
+        display: none;
+    }
+
+    /*CATALOGO*/
+    
+    #voltar{
+        font: bold 3.8vw Arial;
+        padding: 7vw 0 0 77vw;
+    }
+
+    #catalogo{
+        margin: 18% auto 2% auto;
+        font: bold 8vw Arial;
+    }
+
+    .divioes_td{
+        margin: 4% 9% 4% 9%;
+        border-radius: 12px;
+        justify-content: center;
+    }
+
+    .carro{
+        margin-top: 0.3%;
+        position: absolute;
+        width: 32vw;
+        transition: 0.5s;
+    }
+
+    .btn_catalogo{
+        margin-top: 18vw;
+        width: 140vw;
+        height: 5vw;
+        border-radius: 0.6vw;
+        background-color: #5697D1;
+        color:#ffffff;
+        font: bold 3vw Arial;
+        border:none;
+        transition: 0.5s;
+    }
+
+    .nome_carro{
+        position: absolute;
+        font: bold 3vw Arial;
+        color: rgb(255, 255, 255);
+    }
+
+    /*CARRO ESCOLHIDO*/
+
+    .nome_escolhido{
+        position: absolute;
+        font: bold 7vw Arial;
+        color: #f7f7f7;
+        margin-top: 5%;
+    }
+
+    #carro_escolhido{
+        margin-top: 14vw;
+    }
+
+    #fundo_escolhido{
+        margin-top: 10%;
+        height: 20vw;
+    }
+
+    .carro_a_ser_escolhido{
+        width: 70%;
+        margin-top: 8%;
+    }
+    
+    .carro_a_ser_escolhido:hover{
+        width: 71%;
+    }
+
+    #tbl_esp{
+        margin-top: 48vw;
+    }
+
+    #td_esp{
+        margin: 0 7vw 5vw 7vw;
+        width: 60vw;
+        height: 20vw;
+        background-color: #333;
+        border-radius: 2vw;
+    }
+
+    #btn_fechar{
+        width: 58vw;
+        height: 8vw;
+        border-radius: 1vw;
+        font: bold 3vw Arial;
+        margin: 152vw 0 0 0;
+    }
+
+    .especificacao{
+        padding: 2vw;
+        font: normal 4vw Arial;
+    }
+    
+}
+
+/*Tablet*/
+@media (min-width: 760px){
+    #logo_vertical{
+        display: none;
+    }
+}
